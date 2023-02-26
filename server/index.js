@@ -19,6 +19,6 @@ const PORT = process.env.PORT|| 5000;
 mongoose.set("strictQuery", false);
 
 mongoose.connect(CONNECTION_URL, () => {
-    console.log("Connected to MongoDB");
+    console.log("Server is running on 5000!");
   });
 
