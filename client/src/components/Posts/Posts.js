@@ -11,9 +11,9 @@ const Posts = () => {
 
   return (
     <>
-    <h1>Posts</h1>
-    <Post />
-    <Post />
+    <h1></h1>
+    {/* <Post />
+    <Post /> */}
     </>
   )
 }
